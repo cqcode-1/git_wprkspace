@@ -26,6 +26,7 @@ public class ThreadTest1 {
         };
 
         for (int i = 0; i < size; i++) {
+
             threads[i] = new Thread(runnable);
         }
 
